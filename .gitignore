@@ -1,0 +1,14 @@
+# Database config
+config.php
+db_config.php
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
