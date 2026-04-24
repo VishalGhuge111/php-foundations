@@ -6,7 +6,7 @@ if(isset($_POST['name'])){
     $server = "localhost";
     $username = "root";
     $password = "";
-    $database = "rtcamp";
+    $database = "job";
 
     // Create connection
     $con = new mysqli($server, $username, $password, $database);
@@ -58,14 +58,14 @@ if(isset($_POST['name'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rtCamp Associate Software Engineer Application</title>
+    <title>Application Form System</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>rtCamp Associate Software Engineer Application</h1>
-        <p>Enter your details and submit this form</p>
+        <h1>Application Form</h1>
+        <p>Please enter your details and submit the form.</p>
 
         <?php
         if($insert){
